@@ -1,61 +1,149 @@
+# ============================================================================
+# Instagram ⇄ YouTube Reels/Shorts Forwarding System
+# Python Requirements (without versions)
+# ============================================================================
 
-# Core web framework and API
+# ============================================================================
+# WEB FRAMEWORK & API
+# ============================================================================
 fastapi
-uvicorn[standard]
-pydantic
+uvicorn
 python-multipart
+pydantic
+pydantic-settings
+pydantic-core
+annotated-types
 
-# Task queue and background processing
-celery[redis]
+# ============================================================================
+# TASK QUEUE & WORKERS
+# ============================================================================
+celery
 redis
 flower
 
-# Database and ORM
-sqlalchemy
+# ============================================================================
+# DATABASE
+# ============================================================================
 psycopg2-binary
+sqlalchemy
 alembic
 
-# Web scraping and browser automation
-selenium
-undetected-chromedriver
-beautifulsoup4
-requests
-
-# Data processing and file handling
-pandas
-openpyxl
-python-csv
-
-# Security and encryption
-cryptography
+# ============================================================================
+# AUTHENTICATION & SECURITY
+# ============================================================================
+python-jose
+passlib
 bcrypt
+cryptography
 
-# Configuration and environment
+# ============================================================================
+# INSTAGRAM INTEGRATION
+# ============================================================================
+instagrapi
+instaloader
+
+# ============================================================================
+# YOUTUBE INTEGRATION
+# ============================================================================
+google-api-python-client
+google-api-core
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+googleapis-common-protos
+
+# ============================================================================
+# VIDEO PROCESSING & MEDIA
+# ============================================================================
+ffmpeg-python
+pillow
+opencv-python
+imageio
+moviepy
+yt-dlp
+pytubefix
+
+# ============================================================================
+# HTTP & NETWORKING
+# ============================================================================
+requests
+httpx
+aiohttp
+urllib3
+certifi
+charset-normalizer
+idna
+
+# ============================================================================
+# PROXY SUPPORT
+# ============================================================================
+pysocks
+aiohttp-socks
+
+# ============================================================================
+# TELEGRAM BOT INTEGRATION
+# ============================================================================
+python-telegram-bot
+
+# ============================================================================
+# SCHEDULING & BACKGROUND TASKS
+# ============================================================================
+schedule
+apscheduler
+
+# ============================================================================
+# DATA PROCESSING & UTILITIES
+# ============================================================================
+pandas
 python-dotenv
 pyyaml
-
-# System monitoring and utilities
-psutil
-click
-
-# HTTP client and async support
-httpx
-aiofiles
-
-# Logging and debugging
-loguru
-
-# Date and time handling
 python-dateutil
+pytz
 
-# JSON handling and validation
-jsonschema
+# ============================================================================
+# MONITORING & LOGGING
+# ============================================================================
+rich
+tqdm
+colorlog
 
-# Testing (optional - for development)
-pytest
-pytest-asyncio
+# ============================================================================
+# WEBSOCKET SUPPORT
+# ============================================================================
+websockets
+python-socketio
 
-# Development tools (optional)
-black
-flake8
-isort
+# ============================================================================
+# CAPTCHA SOLVING (OPTIONAL)
+# ============================================================================
+twocaptcha-python
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+cachetools
+emoji
+proto-plus
+protobuf
+pyasn1
+pyasn1-modules
+pycryptodomex
+pyparsing
+six
+typing-extensions
+uritemplate
+httplib2
+oauthlib
+requests-oauthlib
+rsa
+pyngrok
+
+# ============================================================================
+# DEVELOPMENT & TESTING (Optional - Comment out for production)
+# ============================================================================
+# pytest
+# pytest-asyncio
+# pytest-cov
+# black
+# flake8
+# mypy

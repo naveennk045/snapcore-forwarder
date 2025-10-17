@@ -42,7 +42,7 @@ The Instagram-YouTube Reels Forwarding System is a production-ready web applicat
 
 ### 2.1 High-Level Architecture
 
-The system follows a modern microservices architecture deployed using Docker containers, consisting of the following core components:[^1]
+The system follows a modern microservices architecture deployed using Docker containers, consisting of the following core components:
 
 **Frontend Layer:**
 

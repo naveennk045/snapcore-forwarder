@@ -6,6 +6,13 @@
 backend/.idea/
 backend/.env
 
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/sandbox/
+
+
 #python build files
 *.egg-info/
 *.pyc
