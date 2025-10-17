@@ -1,0 +1,61 @@
+
+# Core web framework and API
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Task queue and background processing
+celery[redis]
+redis
+flower
+
+# Database and ORM
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Web scraping and browser automation
+selenium
+undetected-chromedriver
+beautifulsoup4
+requests
+
+# Data processing and file handling
+pandas
+openpyxl
+python-csv
+
+# Security and encryption
+cryptography
+bcrypt
+
+# Configuration and environment
+python-dotenv
+pyyaml
+
+# System monitoring and utilities
+psutil
+click
+
+# HTTP client and async support
+httpx
+aiofiles
+
+# Logging and debugging
+loguru
+
+# Date and time handling
+python-dateutil
+
+# JSON handling and validation
+jsonschema
+
+# Testing (optional - for development)
+pytest
+pytest-asyncio
+
+# Development tools (optional)
+black
+flake8
+isort

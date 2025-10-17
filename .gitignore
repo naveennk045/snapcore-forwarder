@@ -1,0 +1,12 @@
+#IDE files
+.idea/
+.vscode/
+
+# Backend unrelated files
+backend/.idea/
+backend/.env
+
+#python build files
+*.egg-info/
+*.pyc
+__pycache__/
